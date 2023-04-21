@@ -1,0 +1,53 @@
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "01",
+  "firstName": "Mo",
+  "lastName": "Zuo",
+  "email": "zuomo@gmail.com"
+}
+
+###
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+  "id": "02",
+  "firstName": "Yan",
+  "lastName": "Xiao",
+  "email": "xiaoyan@gmail.com"
+}
+
+###
+POST http://localhost:8080/customer
+Content-Type: application/json
+
+{
+"id": "03",
+"firstName": "Chang Sheng",
+"lastName": "Wang",
+"email": "wangchangsheng@gmail.com"
+}
+
+
+###
+GET http://localhost:8080/customer
+Accept: application/json
+
+###
+GET http://localhost:8080/customer/01
+
+###
+GET http://localhost:8080/customer/02
+
+###
+GET http://localhost:8080/customer/03
+
+###
+DELETE http://localhost:8080/customer/03
+
+
+
+
+
