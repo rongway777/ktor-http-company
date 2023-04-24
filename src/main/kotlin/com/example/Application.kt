@@ -10,7 +10,8 @@ fun main(args: Array<String>): Unit =
 // This annotation prevents the IDE from marking it as unused.
 @Suppress("unused")
 fun Application.module() {
+
+    configureTemplating()
     configureSerialization()
     configureRouting()
-    configureTemplating()
 }

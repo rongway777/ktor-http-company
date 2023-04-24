@@ -18,7 +18,7 @@ repositories {
 dependencies {
 
     //ktor核心组件
-    implementation "io.ktor:ktor-server-core-jvm:$ktor_version"
+    implementation "io.ktor:ktor-server-core:$ktor_version"
 
     //格式化
     implementation "io.ktor:ktor-server-content-negotiation-jvm:$ktor_version"
@@ -30,7 +30,7 @@ dependencies {
     //静态文件插件
     //implementation "io.ktor:ktor-server-static:$ktor_version"
 
-    //
+    //freemaker
     implementation "io.ktor:ktor-server-freemarker:$ktor_version"
 
     //SLF4J，打印日志使用的
@@ -40,3 +40,6 @@ dependencies {
     testImplementation "io.ktor:ktor-server-tests-jvm:$ktor_version"
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 }
+
+//打包命令
+//./gradlew shadowJar

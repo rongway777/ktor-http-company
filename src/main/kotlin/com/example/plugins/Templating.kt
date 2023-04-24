@@ -7,7 +7,6 @@ import io.ktor.server.freemarker.*
 
 
 fun Application.configureTemplating() {
-
     //FreeMarker类似Android当中的Databinding 和 web的JSP？可以在里面嵌入代码和变量的值
     install(FreeMarker) {
         templateLoader = ClassTemplateLoader(this::class.java.classLoader, "templates")
