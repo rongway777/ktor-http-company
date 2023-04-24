@@ -30,24 +30,24 @@ Content-Type: application/json
 "email": "wangchangsheng@gmail.com"
 }
 
-
 ###
 GET http://localhost:8080/customer
 Accept: application/json
 
 ###
 GET http://localhost:8080/customer/01
+Accept: application/json
 
 ###
 GET http://localhost:8080/customer/02
+Accept: application/json
 
 ###
 GET http://localhost:8080/customer/03
+Accept: application/json
 
 ###
 DELETE http://localhost:8080/customer/03
-
-
 
 
 
